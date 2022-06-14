@@ -48,7 +48,7 @@ if(isNaN(agepassenger)==true) {
   } else{
     priceticket= priceticket.toFixed(2);
     document.getElementById('price-ticket').innerHTML= priceticket;
-    console.log('prezzo non scontato');
+    console.log('prezzo biglietto');
     console.log(priceticket);
     
   }
